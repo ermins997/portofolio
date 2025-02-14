@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <style>
+    .logo-text { fill: #1E40AF; font-family: 'Courier New', monospace; font-weight: bold; font-size: 32px; }
+    .subtext { fill: #4B5563; font-family: Arial, sans-serif; font-size: 18px; }
+    .accent { fill: #3B82F6; }
+  </style>
+  <g>
+    <text class="logo-text" x="10" y="50">Danilo Vesovć </text>
+    <text class="subtext" x="10" y="80">School of Programming</text>
+    <rect class="accent" x="10" y="90" width="380" height="4" rx="2" />
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+  <style>
+    .logo-bg { fill: url(#gradient); }
+    .logo-text { fill: #fff; font-family: 'Arial', sans-serif; font-weight: 700; }
+    .tech-lines { stroke: #4FD1C5; stroke-width: 2; opacity: 0.8; }
+    .brackets { fill: none; stroke: #fff; stroke-width: 3; }
+    #gradient { --color1: #2D3748; --color2: #1A202C; }
+  </style>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:var(--color1);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:var(--color2);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <g class="logo">
+    <rect class="logo-bg" width="300" height="100" rx="15"/>
+    <path class="tech-lines" d="M20 30l15-15m-5 40l25-25M60 20l10 10m50 50l-15 15"/>
+    <path class="brackets" d="M45 35h30v30H44M80 35h30v30H79" stroke-linecap="round"/>
+    <text class="tech-lines" x="250" y="20" font-size="10">1010 1100</text>
+    <text class="logo-text" x="50%" y="50%" font-size="32" text-anchor="middle" dominant-baseline="middle">B2B</text>
+    <text class="logo-text" x="50%" y="75%" font-size="14" text-anchor="middle" font-weight="400">SOFTWARE SOLUTIONS</text>
+  </g>
+</svg>

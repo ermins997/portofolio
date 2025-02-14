@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+  <style>
+    .logo-text { fill: #2D3748; font-family: 'Georgia', serif; font-weight: 700; }
+    .accent-line { stroke: #B91C1C; stroke-width: 3; }
+    .university-symbol { fill: #1D4ED8; }
+    .subtext { fill: #4B5563; font-size: 14px; }
+  </style>
+  <g class="logo">
+    <path class="university-symbol" d="M30 40L150 20L270 40V70H30zM50 30v15"/>
+    <path class="accent-line" d="M30 70H70M45 85H55"/>
+    <text class="logo-text" x="90" y="40" font-size="28">FIMEK</text>
+    <text class="subtext" x="90" y="60">UNIVERSITY OF NOVI SAD–</text>
+    <text class="subtext" x="90" y="75">Est. 1960</text>
+  </g>
+</svg>
